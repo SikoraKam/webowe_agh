@@ -1,0 +1,30 @@
+/*Ćwiczenie 6: pseudoklasy i pseudoelementy*/
+
+#spis_tresci a:hover{
+color: red;
+cursor: default;}
+
+#spis_tresci ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    border: 1px solid blue;
+}
+
+#spis_tresci li {
+    border-bottom: solid #615D6C;
+}
+
+#spis_tresci li:hover{
+    background-color: green;
+}
+
+p:first-letter{
+    color: brown;
+    font-family: "Comic Sans MS";
+    font-style: italic;
+    font-weight: 800;
+}
+
+/*użyty w pliku ćwiczenie1.html*/

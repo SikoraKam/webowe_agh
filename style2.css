@@ -1,0 +1,31 @@
+/*Ćwiczenie 2: formatowanie tabel*/
+
+table{
+background-color: cyan;
+border: 4px solid green;
+}
+
+thead{
+color: blue;
+text-transform: uppercase;
+    background-color: cyan;}
+tfoot{
+    color: blue;
+    background-color: cyan;}
+
+tbody{
+font-size:  10pt;
+font-style: italic}
+
+table #col1{background-color: white;}
+table #col3{background-color: white;}
+
+
+
+
+
+
+
+
+/*użyty w pliku ćwiczenie3.html*/
+

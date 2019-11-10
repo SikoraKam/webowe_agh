@@ -1,0 +1,20 @@
+/*Ćwiczenie 9: style warunkowe*/
+
+@media screen and (max-width: 800px){
+    #spis_tresci{
+        position: relative;
+        display: inline-block;
+    }
+    #spis_tresci_zawartosc {
+        display: none;
+        position: absolute;
+        background-color: cornsilk;
+        min-width: 160px;
+        padding: 12px 16px;
+    }
+    #spis_tresci:hover #spis_tresci_zawartosc{
+        display: block;
+    }
+}
+
+/*użyty w pliku cwiczenie3.html*/

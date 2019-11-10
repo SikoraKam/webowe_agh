@@ -1,0 +1,13 @@
+/*Ćwiczenie 1: formatowanie tekstu*/
+
+body{font-family: Verdana;}
+
+h1{	color: deepskyblue;
+	letter-spacing: 4pt;}
+h2{color: green}
+h3{color: cyan;}
+
+p{text-indent: 10pt;}
+
+/*użyty w pliku ćwiczenie1.html*/
+

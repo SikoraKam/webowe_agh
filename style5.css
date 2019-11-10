@@ -1,0 +1,28 @@
+/*Ćwiczenie 5: układ strony*/
+
+#main{
+    margin-left:205px;
+    max-width: 960px;
+    background-color: pink;
+    width: auto;
+    height: 100%;
+}
+
+#tytul{
+    color: red;
+    width: 100%;
+    text-align: center;
+    background-color: palegreen;
+}
+
+#spis_tresci{
+    display: block;
+    height: 100%;
+    width: 200px;
+    text-align: center;
+    position: fixed;
+    background: orange;
+}
+
+/*użyty w pliku cwiczenie1.html*/
+/*użyty w pliku cwiczenie2.html*/

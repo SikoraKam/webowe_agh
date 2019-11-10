@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Ćwiczenie 3: tabele i listy</title>
+    <meta http-equiv="Content-Type" content="application/xhtml+xml;charset=UTF-8" />
+	<link rel="stylesheet" media="screen" href="style2.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="style3.css" type="text/css" />
+    <link rel="stylesheet" media="screen" href="style9.css" type="text/css" />
+
+</head>
+<body>
+
+<div id="spis_tresci">
+    <span>MENU</span>
+    <div id="spis_tresci_zawartosc"
+    <ul>
+        <li><a href="#tabela"> tabela </a></li>
+        <li><a href="#lista"> lista </a></li>
+        <li><a href="#definicje"> definicje </a></li>
+    </ul>
+    </div>
+</div>
+
+<div id="tabela">
+<h1>Tabela</h1>
+    <table border = "1">
+        <colgroup>
+            <col id="col1"/>
+            <col id="col2"/>
+            <col id="col3"/>
+        </colgroup>
+        <thead>
+        <tr><th colspan="3">Nagłówek</th></tr>
+    </thead>
+    <tfoot>
+        <tr align="center"><td align="center" colspan="3">Stopka</td></tr>
+    </tfoot>
+    <tbody>
+        <tr><td>imię</td>   <td>nazwisko</td>   <td>kolor oczu</td></tr>
+        <tr><td>Pioter</td> <td>Kowalski</td>   <td>niebieski</td></tr>
+        <tr><td rowspan="2">Janusz</td> <td>Nowak</td>      <td>brązowy</td></tr>
+        <tr>                <td>Adamski</td><td rowspan ="2"  align="center">zielony</td></tr>
+        <tr><td>Marian</td> <td>Paździoch</td></tr>
+    </tbody>
+</table>
+</div>
+
+<div id="lista">
+<h1>Lista</h1>
+<ol>
+    <li>element1</li>
+    <li>element2</li>
+    <li>element3
+        <ol>
+	        <li>drugi poziom</li>
+            <li>drugi poziom1</li>
+	    </ol>
+    </li>
+    <li>element4
+        <ol>
+            <li>numeracja drugiego poziomu</li>
+            <li>numeracja drugiego poziomu1
+            <ol>
+                <li>trzeci</li>
+                <li>trzeci1</li>
+            </ol></li>
+            <li>numeracja drugiego poziomu2</li>
+        </ol>
+    </li>
+    <li>element5</li>
+</ol>
+</div>
+
+<div id="definicje">
+<h1>Definicje kilku termów</h1>
+<dl>
+    <dt>Pies domowy</dt>
+        <dd>domowiona forma wilka szarego, ssaka drapieżnego z rodziny psowatych (Canidae),
+            uznawana przez niektórych za podgatunek wilka,
+            a przez innych za odrębny gatunek[potrzebny przypis],
+            opisywany pod synonimicznymi nazwami Canis lupus familiaris lub Canis familiaris.
+            Od czasu jego udomowienia powstało wiele ras, znacznie różniących się morfologią i cechami użytkowymi.
+            Rasy pierwotne powstawały głównie w wyniku presji środowiskowej.
+            Rasy współczesne uzyskano w wyniku doboru sztucznego.</dd>
+    
+    <dt><br/>Nosacz sundajski</dt>
+        <dd>gatunek ssaka z rodziny koczkodanowatych (Cercopithecidae) wyróżniający się charakterystycznym nosem.</dd>
+    <dt><br/>AGH</dt>
+        <dd>Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie,
+            AGH (dawniej Akademia Górnicza w Krakowie), nazwa międzynarodowa AGH University of Science and Technology (dawniej University of Mining and Metallurgy)
+            – największa polska uczelnia techniczna, powołana 8 kwietnia 1919 uchwałą Rady Ministrów. Jedna z najlepszych uczelni w Polsce.</dd>
+</dl>
+</div>
+
+
+<div>
+    <ol>
+        <li><a href="http://charon.kis.agh.edu.pl/~sikokami/cwiczenie1.html">cwiczenie1</a></li>
+        <li><a href="http://charon.kis.agh.edu.pl/~sikokami/cwiczenie2.html">cwiczenie2</a></li>
+        <li><a href="http://charon.kis.agh.edu.pl/~sikokami/cwiczenie4.html">cwiczenie4</a></li>
+    </ol>
+</div>
+
+<p>
+    <a href="http://validator.w3.org/check?uri=referer"><img
+      src="http://www.w3.org/Icons/valid-xhtml10" alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+</p>
+
+</body>
+</html>

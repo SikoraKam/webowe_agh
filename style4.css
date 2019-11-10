@@ -1,0 +1,23 @@
+/*Ćwiczenie 4: formatowanie obrazów*/
+
+/*#img1,#img2{
+display: block;}
+
+#img1{
+margin-right: auto;
+}
+#img2{
+margin-left: auto;
+}*/
+
+#img1{
+    display: block;
+    float: left;
+}
+
+#img2{
+    display: block;
+    float: right;
+}
+
+/*użyty w pliku cwiczenie4.html*/
