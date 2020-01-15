@@ -1,0 +1,38 @@
+
+
+#spis_tresci {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: green;
+    display: block;
+    position: static;
+    width: 100%;
+    border: 3px solid blue;
+    text-align: center;
+}
+
+#main{
+    background-color: greenyellow;
+}
+
+#spis_tresci li{
+    display: inline-block;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#spis_tresci li:hover {
+    background-color: gray;
+}
+
+#spis_tresci li a{
+    text-decoration: none; /*bez podkreślenia*/
+}
+
+#spis_tresci li a:hover {
+    color: white;
+    cursor: default;
+}
+
+/*użyty w pliku cwiczenie2.html*/
